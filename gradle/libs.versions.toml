@@ -1,6 +1,7 @@
 [versions]
 agp = "8.4.2"
 applovin = "12.6.0.0"
+appUpdate = "2.1.0"
 bom = "2.5.0"
 facebook = "6.17.0.0"
 gotrueKt = "2.5.0"
@@ -17,12 +18,16 @@ googleGmsGoogleServices = "4.4.2"
 firebaseConfig = "22.0.0"
 navigationCompose = "2.7.7"
 playServicesAds = "23.2.0"
+review = "2.0.1"
+reviewKtx = "2.0.1"
 unity = "4.12.1.0"
 unityAds = "4.12.1"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+app-update = { module = "com.google.android.play:app-update", version.ref = "appUpdate" }
+app-update-ktx = { module = "com.google.android.play:app-update-ktx", version.ref = "appUpdate" }
 applovin = { module = "com.google.ads.mediation:applovin", version.ref = "applovin" }
 facebook = { module = "com.google.ads.mediation:facebook", version.ref = "facebook" }
 gotrue-kt = { module = "io.github.jan-tennert.supabase:gotrue-kt", version.ref = "gotrueKt" }
@@ -42,6 +47,8 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 firebase-config = { group = "com.google.firebase", name = "firebase-config", version.ref = "firebaseConfig" }
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktorClientAndroid" }
 play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+review = { module = "com.google.android.play:review", version.ref = "review" }
+review-ktx = { module = "com.google.android.play:review-ktx", version.ref = "reviewKtx" }
 supabase-postgrest-kt = { module = "io.github.jan-tennert.supabase:postgrest-kt", version.ref = "bom" }
 unity = { module = "com.google.ads.mediation:unity", version.ref = "unity" }
 unity-ads = { module = "com.unity3d.ads:unity-ads", version.ref = "unityAds" }

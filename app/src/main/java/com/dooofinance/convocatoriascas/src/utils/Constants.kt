@@ -2,7 +2,7 @@ package com.dooofinance.convocatoriascas.src.utils
 
 object Constants {
     const val END_RANGE = 11
-    const val ENABLE_TEST_APP = true
+    const val ENABLE_TEST_APP = false
     const val DESCARGO_RESPONSABILIDAD = "CONVOCATORIAS CAS: Es una aplicación informativa e independiente que no representa a ninguna entidad gubernamental. Es un servicio voluntario y gratuito que se mantiene con recursos propios."
 
     //Consultas Supabase

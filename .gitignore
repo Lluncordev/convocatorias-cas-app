@@ -51,6 +51,8 @@ proguard/
 /*/*/production
 captures/
 .navigation/
+app/src/androidTest
+app/src/test
 *.ipr
 *~
 *.swp

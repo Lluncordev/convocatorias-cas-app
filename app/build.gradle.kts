@@ -13,8 +13,8 @@ android {
         applicationId = "com.dooofinance.convocatoriascas"
         minSdk = 23
         targetSdk = 34
-        versionCode = 8
-        versionName = "1.3.2"
+        versionCode = 9
+        versionName = "1.4.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -84,4 +84,10 @@ dependencies {
     implementation  (libs.facebook)
     implementation  (libs.unity.ads)
     implementation  (libs.unity)
+
+    //Google play
+    implementation(libs.review)
+    implementation(libs.review.ktx)
+    implementation(libs.app.update)
+    implementation(libs.app.update.ktx)
 }
